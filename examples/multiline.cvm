@@ -1,0 +1,9 @@
+let result = 1;
+let counter = 1;
+
+while (counter <= 4) {
+    result = result * counter;
+    counter = counter + 1;
+}
+
+print(result);

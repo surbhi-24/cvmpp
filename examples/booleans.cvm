@@ -1,0 +1,19 @@
+// booleans.cvm
+let t = true;
+let f = false;
+
+if (t) {
+    print("true works");
+}
+
+if (f) {
+    print("should not print");
+} else {
+    print("false works");
+}
+
+let x = 10;
+let y = 20;
+print(x == y);    // false
+print(x != y);    // true
+print(x < y);     // true

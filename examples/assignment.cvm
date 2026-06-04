@@ -1,0 +1,5 @@
+let target = 50;
+print(target);
+
+target = 100;
+print(target);

@@ -1,0 +1,40 @@
+# ====================================================================
+# CVM++ Toolchain Target Build Artifacts
+# ====================================================================
+# Ignore both native Makefile and dynamic CMake build directories
+build/
+cmake-build/
+
+# Ignore core executable targets directly if generated in root
+cvmpp
+
+# Ignore any intermediate compiler object and dependency graphs
+*.o
+*.d
+*.a
+*.so
+*.dylib
+
+# ====================================================================
+# Operating System & IDE Workspace Metadata
+# ====================================================================
+# macOS local file system descriptors
+.DS_Store
+
+# Windows thumbnail cache index
+Thumbs.db
+
+# JetBrains / VS Code workspace configurations
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# ====================================================================
+# Local Overrides & Private Environment Constants
+# ====================================================================
+.env
+*.local

@@ -1,0 +1,6 @@
+let alpha = 15;
+let beta = 20;
+
+print(alpha < beta);   // Expected: true
+print(alpha == beta);  // Expected: false
+print(alpha >= beta);  // Expected: false

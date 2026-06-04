@@ -1,0 +1,4 @@
+// input.cvm — reads two numbers and prints their sum
+let a = input();
+let b = input();
+print(a + b);

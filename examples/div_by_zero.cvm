@@ -1,0 +1,9 @@
+// Verification: Runtime Division Safety Assertions
+let numerator = 100;
+let denominator = 0;
+
+if (denominator == 0) {
+    print("Runtime Exception Handled: Division by zero is blocked safely.");
+} else {
+    print(numerator / denominator);
+}

@@ -1,0 +1,6 @@
+// hello.cvm — first program
+let msg = "Hello, World!";
+print(msg);
+
+let x = 5 + 3;
+print(x);

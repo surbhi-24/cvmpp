@@ -1,0 +1,9 @@
+// arithmetic.cvm
+let a = 20;
+let b = 6;
+
+print(a + b);   // 26
+print(a - b);   // 14
+print(a * b);   // 120
+print(a / b);   // 3
+print(a % b);   // 2
